@@ -96,6 +96,8 @@ def find_path(node, target):
     path.reverse()
     return path
 
+# while building this function, I found the source code
+# from the class (open-source) helpful as a guide
 def shortest_path(source, target):
     """
     Returns the shortest list of (movie_id, person_id) pairs
@@ -138,8 +140,6 @@ def shortest_path(source, target):
 
                 frontier.add(child_node)
 
-    if path == []:
-        return None
 
 
 def person_id_for_name(name):
