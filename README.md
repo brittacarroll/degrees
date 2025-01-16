@@ -5,10 +5,10 @@ https://cs50.harvard.edu/ai/2024/
 
 This was the first of several projects.
 
-**To run**
+**To run**:
 python degrees.py {directory-'small' or 'large'-that contains CSVs to run program}
 
-**Goal of program**
+**Goal of program**:
 The purpose of Lesson 0 was to learn about various search algorithms, including depth-first search (DFS), breadth-first search (BFS), greedy BFS, etc.
 
 We also learned about Adversarial Search algorithms like minimax and alpha-beta pruning.
